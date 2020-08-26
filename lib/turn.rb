@@ -6,7 +6,9 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-#move
+#valid_move?
+#position_taken?
+
 def input_to_index(user_input)
   user_input.to_i - 1
 end
